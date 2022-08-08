@@ -1,0 +1,135 @@
+/*ABOUT PAGE*/
+/*BG-TOP*/
+.bg {
+  /* The image used */
+  background-image: url("../images/about/shutterstock.png");
+  height: 350px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+	margin-left: 16px;
+}
+.bg h2.about {
+	display: inline-block;
+	margin-top: 3rem;
+	padding: 5px 30px;
+	color: #fff;	
+	font: 48px/48px Roboto, sans-serif;
+}
+
+.bg h5.welcome {
+	margin-top: 45px;
+	font: 18px/18px Roboto, sans-serif;
+}
+
+/*ABOUT CONTENT*/
+.about_content {
+	margin-top:74px;
+}
+.our-story-skills h5 {
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+.our-story-skills p {
+	margin-bottom: 40px;
+	/*font-size: 14px;*/
+}
+.our-story-skills .h6 {
+	margin:0;
+	font-size: 16px;
+}
+.progres {
+	margin: 15px 0 20px 0;
+	height: 10px;
+	background-color: #ebebeb;
+}
+.progres-bar {
+    height: 1px;
+    margin-top: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    transition: width .6s ease;
+}
+.progres-bar:after {
+
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	
+}
+.photoshop .progres-bar:after {
+	right: 10%;
+}
+
+.branding .progres-bar:after {
+	right: 5%;
+}
+
+.photography .progres-bar:after {
+	right: 50%;
+}
+
+.web-design .progres-bar:after {
+	right: 15%;
+}
+
+.title-cards {
+	margin-top: 90px;
+}
+.title-cards h3 {
+	font-size: 30px;
+}
+.cards h5 {
+	font-size: 24px;
+	color: #041608;
+}
+.cards .card-body p:nth-child(2) {
+	font-size: 16px;
+	color: #777;
+}
+.cards .card-body p:nth-child(3) {
+	font-size: 14px;
+	color: #9c9c9c;
+}
+@media screen and (max-width:1200px) {
+	.bg {
+	background-image: url("../images/about/shutterstock1200.png");
+	}
+	.about_content {
+	margin-top:50px;
+}
+	.our-story-skills h5 {
+		margin-bottom: 20px;		
+	}
+	.our-story-skills p {
+		margin-bottom: 20px;		
+	}
+}
+@media screen and (max-width:992px) {
+	.bg {
+	background-image: url("../images/about/shutterstock920.png");
+	}
+	.bg h2.about {
+	margin-top: 0;		
+	font: 24px/24px Roboto, sans-serif;
+	}
+	.shutterstock2 {
+		display: none;
+	}
+	.cards {
+		margin-bottom: 10px;	
+	}
+}
+
+@media screen and (max-width:768px) {
+	.bg {
+	display: none;
+	}
+}
